@@ -6,19 +6,14 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
   <!-- Import vega-embed -->
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-  
-  <!-- CSS file -->
- 
-  
 </head>
 <body>
-  
-<div id="choropleth_map"></div>
+
+<div id="vis"></div>
 
 <script type="text/javascript">
-
-  var spec2 = "https://wsan0002.github.io/FIT3179Homework4/choropleth_map.vg.json";
-  vegaEmbed('#choropleth_map', spec).then(function(result) {
+  var spec = "https://wsan0002.io/FIT3179Homework4/choropleth_map.vg.json";
+  vegaEmbed('#vis', spec).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
