@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "title": "World Happiness Ranking",
-  "width": 800,
-  "height": 600,
+  "width": 600,
+  "height": 500,
   "data": {
     "url": "https://raw.githubusercontent.com/wsan0002/FIT3179Homework4/main/ne_110m_admin_0_countries.json",
     "format": {
